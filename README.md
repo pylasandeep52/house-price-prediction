@@ -1,2 +1,4 @@
 # house-price-prediction
-I designed this house pricing prediction model using machine learning in python. In this model mainly we are using libraries called pandas, Matplotlib, seaborn. 
+I designed this house pricing prediction model using machine learning in python. In this model mainly we are using libraries called pandas, Matplotlib, seaborn. In this model to get accurate result we need to follow the following steps i.e Data Preprocessing, Exploring Data Analysis, Data Cleaning, OneHotEncoder-For Label categorical features, Splitting Dataset in to Training and Testing, Model and Accuracy, SVM -Support Vector Machine, Linear Regression and CatBoost Classifier.
+Linear Regression predicts the final output-dependent value based on the given independent features. Like, here we have to predict SalePrice depending on features like MSSubClass, YearBuilt, BldgType, Exterior1st etc.
+Clearly, SVM model is giving better accuracy as the mean absolute error is the least among all the other regressor models i.e. 0.18 approx. To get much better results ensemble learning techniques like Bagging and Boosting can also be used.
